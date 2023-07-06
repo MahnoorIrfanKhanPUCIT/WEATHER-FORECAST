@@ -48,3 +48,9 @@
 {
     color: beige;
 }
+
+@media (max-width: 576px) {
+    .weather-h4 {
+      font-size: 30px;
+    }
+  }
