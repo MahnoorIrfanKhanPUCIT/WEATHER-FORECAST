@@ -1,0 +1,50 @@
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+.weather-img
+{
+    width: 50%;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+.weather-h4
+{
+    font-weight:lighter;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.weather-span
+{
+    margin: 20px;
+} 
+
+.mode-change
+{
+    background-image: url('../IMAGES/bright-bg.jfif') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mode-change .sub-container
+{
+    background: #212529 !important;
+}
+
+.mode-change h2
+{
+    color: beige;
+}
+
+.mode-change h4
+{
+    color: beige;
+}
